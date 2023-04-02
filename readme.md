@@ -38,14 +38,15 @@ Trigram models can be found here: https://cloud.tsinghua.edu.cn/d/cffa2e2502ed4f
 ### Baseline
 | tester | model | top k | language modeling | time usage | sentence acc | word acc | 
 | ------ | ---- | ---- | ---- | ---- | ---- | ---- |
-| song on r3 1200 | bigram | 1 | None | 25.88 | 0.399 | 0.842 |
-| song on r3 1200 | bigram_std | 1 | None | 22.48 | 0.970 | 0.997 |
-| song on r3 1200 | bigram_weibo_baike_webtext_wiki | 1 | None | 26.72 | 0.421 |  0.848 |
-| song on r3 1200 | bigram_weibo_newscrawl_baike_webtext_wiki | 1 | None | 27.02 | 0.451 | 0.861 |
-| song on r3 1200 | trigram | 1 | None | 25.34 | 0.637 | 0.909 |
-| song on r3 1200 | trigram_std | 1 | None | 22.42 | 1.000 | 1.000 |
-| song on r3 1200 | trigram_weibo_baike_webtext_wiki | 1 | None | 26.75 | 0.782 |  0.955 |
-| song on r3 1200 | trigram_weibo_newscrawl_baike_webtext_wiki | 1 | None | 26.48 | 0.808 | 0.961 |
+| song on r3 1200 | bigram | 4 | None | 25.88 | 0.399 | 0.842 |
+| song on r3 1200 | bigram | 4 | uer/gpt2-chinese-cluecorpussmall | 32.18 | 0.570 | 0.887 |
+| song on r3 1200 | bigram_std | 4 | None | 22.48 | 0.970 | 0.997 |
+| song on r3 1200 | bigram_weibo_baike_webtext_wiki | 4 | None | 26.72 | 0.421 |  0.848 |
+| song on r3 1200 | bigram_weibo_newscrawl_baike_webtext_wiki | 4 | None | 27.02 | 0.451 | 0.861 |
+| song on r3 1200 | trigram | 4 | None | 25.34 | 0.637 | 0.909 |
+| song on r3 1200 | trigram_std | 4 | None | 22.42 | 1.000 | 1.000 |
+| song on r3 1200 | trigram_weibo_baike_webtext_wiki | 4 | None | 26.75 | 0.782 |  0.955 |
+| song on r3 1200 | trigram_weibo_newscrawl_baike_webtext_wiki | 4 | None | 26.48 | 0.808 | 0.961 |
 
 To be updated.
 

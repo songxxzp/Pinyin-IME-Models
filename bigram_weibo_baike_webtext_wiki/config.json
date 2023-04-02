@@ -1,0 +1,10 @@
+{
+    "max_prefix_length": 1,
+    "corpora_path": [
+        ["/home/song/data/SMP2020/usual_train_new.txt", "gbk", []],
+        ["/home/song/data/webtext2019zh/web_text_zh_train.json", "utf-8", ["title", "desc", "content"]],
+        ["/home/song/data/sina_news_gbk/2016-02.txt", "gbk", ["html", "title"]],
+        ["/home/song/data/baike2018qa/baike_qa_train.json", "utf-8", ["title", "desc", "answer"]],
+        ["/home/song/data/wiki_zh/", "utf-8", ["title", "text"]]
+    ]
+}

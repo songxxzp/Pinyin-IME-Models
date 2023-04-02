@@ -1,0 +1,6 @@
+{
+    "max_prefix_length": 1,
+    "corpora_path": [
+        ["task_data/std_output.txt", "utf-8", []]
+    ]
+}

@@ -15,6 +15,7 @@ probabilistic_model = load_probabilistic_model("trigram_std/probabilistic_model.
         token="是"
     )
     print("p({}|{}) = {}".format("是", "北京", str(prob)))
+    # p(是|北京) = 0.25
 ```
 
 ### Details
@@ -29,8 +30,10 @@ probabilistic_model = load_probabilistic_model("trigram_std/probabilistic_model.
 | trigram_std | std_output.txt |
 | trigram_weibo_baike_webtext_wiki | sina weibo baike webtext wiki |
 | trigram_weibo_newscrawl_baike_webtext_wiki | sina newscrawl weibo baike webtext wiki |
+
 Please indicate the reference when using
-More models in https://cloud.tsinghua.edu.cn/d/cffa2e2502ed4fd59d1b/
+
+Trigram models can be found here: https://cloud.tsinghua.edu.cn/d/cffa2e2502ed4fd59d1b/
 
 ### Baseline
 | tester | model | top k | language modeling | time usage | sentence acc | word acc | 
